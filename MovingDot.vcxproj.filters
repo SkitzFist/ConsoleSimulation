@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{080a893d-374c-458a-9fd2-c576a460459a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dot">
+      <UniqueIdentifier>{895b1f56-a9b4-478e-bc46-54def430b0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{5578da66-30bf-4695-91c9-b465e8ebda60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{77222e13-fdcc-401b-a6c8-ac3bc4c934f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dot\Behaviour">
+      <UniqueIdentifier>{94593098-2930-4c9a-989e-a367668208c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dot\Factory">
+      <UniqueIdentifier>{fb6956e1-833b-444c-b8f4-6cab64c642a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dot\Handler">
+      <UniqueIdentifier>{193202df-9bb7-4800-ae5e-12f7eb2f05a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dot\Behaviour\MoveRight">
+      <UniqueIdentifier>{e5c12d3d-52bc-4d49-8dc6-342ce743682c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dot\Behaviour\Sheep">
+      <UniqueIdentifier>{d9d60eb3-3666-4e37-a0cb-5b27276f6b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dot\Behaviour\Wolf">
+      <UniqueIdentifier>{d89cb4ed-1575-4beb-9807-abe0e715c899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dot\Behaviour\Food">
+      <UniqueIdentifier>{39e5d17c-8171-48f2-87ec-4649bca0cc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DeltaTime">
+      <UniqueIdentifier>{5d786c8b-e1d5-4594-8b2b-c1ae057610ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dot\Handler\SubHandlers">
+      <UniqueIdentifier>{069f21a5-2def-43a5-a4ce-578b86baa87a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Dot.cpp">
+      <Filter>Dot</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DotHandler.cpp">
+      <Filter>Dot\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="IDotBehaviour.cpp">
+      <Filter>Dot\Behaviour</Filter>
+    </ClCompile>
+    <ClCompile Include="MovRight.cpp">
+      <Filter>Dot\Behaviour\MoveRight</Filter>
+    </ClCompile>
+    <ClCompile Include="DotFactory.cpp">
+      <Filter>Dot\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="SheepBehaviour.cpp">
+      <Filter>Dot\Behaviour\Sheep</Filter>
+    </ClCompile>
+    <ClCompile Include="FoodBehaviour.cpp">
+      <Filter>Dot\Behaviour\Food</Filter>
+    </ClCompile>
+    <ClCompile Include="DeltaTime.cpp">
+      <Filter>DeltaTime</Filter>
+    </ClCompile>
+    <ClCompile Include="DotSubHandler.cpp">
+      <Filter>Dot\Handler\SubHandlers</Filter>
+    </ClCompile>
+    <ClCompile Include="WolfBehaviour.cpp">
+      <Filter>Dot\Behaviour\Wolf</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Dot.h">
+      <Filter>Dot</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="DotHandler.h">
+      <Filter>Dot\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="IDotBehaviour.h">
+      <Filter>Dot\Behaviour</Filter>
+    </ClInclude>
+    <ClInclude Include="MovRight.h">
+      <Filter>Dot\Behaviour\MoveRight</Filter>
+    </ClInclude>
+    <ClInclude Include="DotFactory.h">
+      <Filter>Dot\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="SheepBehaviour.h">
+      <Filter>Dot\Behaviour\Sheep</Filter>
+    </ClInclude>
+    <ClInclude Include="FoodBehaviour.h">
+      <Filter>Dot\Behaviour\Food</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaTime.h">
+      <Filter>DeltaTime</Filter>
+    </ClInclude>
+    <ClInclude Include="DotSubHandler.h">
+      <Filter>Dot\Handler\SubHandlers</Filter>
+    </ClInclude>
+    <ClInclude Include="Distance.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="WolfBehaviour.h">
+      <Filter>Dot\Behaviour\Wolf</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
